@@ -58,8 +58,21 @@ div{
   color: rgb(243, 151, 167);
   width: 30%;
 }
+h2{
+  width:100%;
+  text-align: center;
+}
 p{
-  width:45%;
+  width:100%;
+  text-align:center;
+}
+.show{
+color: orange;
+
+
+}
+.close{
+  color:aqua;
 }
 /* @media(min-width: 900px){
   .character-card{
