@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander&display=swap');
+
+*{
+  font-family: 'Grandstander', cursive;
+}
+
 body{
   background-color: rgb(44, 5, 44);
 }
@@ -17,9 +23,11 @@ header{
 .loading{
   color:orange;
   width: 100%;
-  padding:6%;
+  margin:15%;
+  font-size:2rem;
 }
 button{
+  font-size:1rem;
   width:6%;
   padding:1%;
   color: orange;
