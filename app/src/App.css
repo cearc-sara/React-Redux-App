@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander&display=swap');
+
+*{
+  font-family: 'Grandstander', cursive;
+}
+
+body{
+  background-color: rgb(44, 5, 44);
+}
+
+.App {
+  justify-content: space-between;
+  width:100%;
+  
+}
+
+header{
+  width:100%;
+  color: aqua;
+  padding:2%;
+  text-align: center;
+}
+.loading{
+  color:orange;
+  width: 100%;
+  margin:15%;
+  font-size:2rem;
+}
+button{
+  font-size:1rem;
+  width:6%;
+  padding:1%;
+  color: orange;
+  background-color: rgb(41, 41, 116);
+  border:none;
+  border-radius:10px;
+  box-shadow: 4px 4px 4px rgba(65, 60, 60, 0.664);
+  margin:2%;
+}
+.Alive{
+  color:rgb(247, 36, 247);
+}
+.Dead{
+  color:rgb(5, 177, 148);
+}
+.unknown{
+  color:rgb(248, 248, 185);
+}
+img{
+  border-radius: 10px;
+  width: 70%;
+  margin:6%;
+}
+div{
+  justify-content: space-around;
+  display:flex;
+  flex-wrap:wrap;
+}
+.character-card{
+  margin:2%;
+  justify-content: center;
+  
+  background-color: rgba(36, 155, 155, 0.438);
+  box-shadow: 4px 4px 4px 4px rgba(12, 1, 12, 0.733);
+  border-radius: 20px;
+  color: rgb(243, 151, 167);
+  width: 30%;
+}
+h2{
+  width:100%;
+  text-align: center;
+}
+p{
+  width:100%;
+  text-align:center;
+}
+.show{
+color: orange;
+
+
+}
+.close{
+  color:aqua;
+}
+/* @media(min-width: 900px){
+  .character-card{
+    
+    
+  }
+} */
