@@ -12,26 +12,50 @@ header{
   width:100%;
   color: aqua;
   padding:2%;
+  text-align: center;
 }
-
+.loading{
+  color:orange;
+  width: 100%;
+  padding:6%;
+}
+button{
+  width:6%;
+  padding:1%;
+  color: orange;
+  background-color: rgb(41, 41, 116);
+  border:none;
+  border-radius:10px;
+  box-shadow: 4px 4px 4px rgba(65, 60, 60, 0.664);
+  margin:2%;
+}
+.Alive{
+  color:rgb(247, 36, 247);
+}
+.Dead{
+  color:rgb(5, 177, 148);
+}
+.unknown{
+  color:rgb(248, 248, 185);
+}
 img{
   border-radius: 10px;
-  width: 35%;
+  width: 70%;
   margin:6%;
 }
 div{
-  
+  justify-content: space-around;
   display:flex;
   flex-wrap:wrap;
 }
 .character-card{
   margin:2%;
   justify-content: center;
-  border: 8px solid orange;
-  background-color: rgba(31, 128, 128, 0.438);
+  
+  background-color: rgba(36, 155, 155, 0.438);
   box-shadow: 4px 4px 4px 4px rgba(12, 1, 12, 0.733);
   border-radius: 20px;
-  color: pink;
+  color: rgb(243, 151, 167);
   width: 30%;
 }
 p{

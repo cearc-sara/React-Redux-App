@@ -9,7 +9,7 @@ const Character = ({ character }) => {
         <h2>{character.name}</h2>
         
         <div className='character-info'>
-        <p>Status: {character.status}</p>&nbsp;
+        <p className={character.status}>Status: {character.status}</p>&nbsp;
             <p>Species: {character.species}</p>&nbsp;
             <p>Gender: {character.gender}</p>&nbsp;
             <p>Origin: {character.origin.name}</p>&nbsp;
