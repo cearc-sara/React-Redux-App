@@ -5,11 +5,11 @@ import Character from './character';
 
 function CharacterList(props) {
     return(
-        <>
+        <div>
             {props.characters.map((character) => {
                 return <Character key={character.id} character={character} />
             })}
-        </>
+        </div>
     )
 }
 

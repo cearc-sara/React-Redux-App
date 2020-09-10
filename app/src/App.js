@@ -14,7 +14,9 @@ function App(props) {
   return (
     <div className="App">
       <header>
+        
       <h1 className='title'>Rick and Morty Characters</h1>
+      
       </header>
       {!loadingCharacters ? (<CharacterList/>) : (<div>...Finding Mr. Sanchez</div>)}
       {errorMessage !== "" ? <div>{errorMessage}</div> : null}
