@@ -37,6 +37,10 @@ button{
   box-shadow: 4px 4px 4px rgba(65, 60, 60, 0.664);
   margin:2%;
 }
+button:hover{
+  background-color: rgba(66, 209, 209, 0.719);
+  color:purple;
+}
 .Alive{
   color:rgb(247, 36, 247);
 }

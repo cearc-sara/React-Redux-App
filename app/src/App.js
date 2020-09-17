@@ -26,7 +26,10 @@ function App(props) {
       <button onClick={() => setPage(3)}>3</button>
       <button onClick={() => setPage(4)}>4</button>
       <button onClick={() => setPage(() => { if (page >= 4) { setPage(1) } else { setPage(page + 1) } })}>Next</button>
-      {!loadingCharacters ? (<CharacterList />) : (<div className='loading'><CircleLoader className='spinner' color={'orange'}/>Searching for Mr. Sanchez</div>)}
+      {!loadingCharacters ? (
+      <CharacterList />) : 
+      (<div className='loading'>
+        <CircleLoader className='spinner' color={'orange'}/>Searching for Mr. Sanchez</div>)}
       {errorMessage !== "" ? <div>{errorMessage}</div> : null}
 
     </div>
